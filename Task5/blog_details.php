@@ -10,8 +10,8 @@ $file = fopen('info.txt', 'r') or die('Unable to open file!');
    while (!feof($file)) {
 
       $data = explode('||',fgets($file));
-    // $id= $data[0];
-    var_dump($data);
+      // $id= $data[0];
+      //var_dump($data);
       $ftitle= $data[1];
       $fcontent= $data[2];
       $fimgname= $data[3];
