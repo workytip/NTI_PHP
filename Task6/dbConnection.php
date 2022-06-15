@@ -1,8 +1,4 @@
 <?php
-// Mysqli  ... (FUNCTION , CLASS)
-// PDO    (CLASS)
-
-session_start();
 
 $server   = "localhost";
 $database = "bloger";
@@ -21,10 +17,4 @@ try {
   echo $e->getMessage();
 }
 
-  /*
-   CRUD
-   C   = CREATE   . 
-   R   = READ     . 
-   U   = UPDATE   . 
-   D   = DELETE   . 
-   */
+ 
